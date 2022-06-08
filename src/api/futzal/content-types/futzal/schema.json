@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "futzals",
+  "info": {
+    "singularName": "futzal",
+    "pluralName": "futzals",
+    "displayName": "Футзал",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

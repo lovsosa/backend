@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trenery_nskr_futzals",
+  "info": {
+    "singularName": "trenery-nskr-futzal",
+    "pluralName": "trenery-nskr-futzals",
+    "displayName": "Тренеры НСКР футзал",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

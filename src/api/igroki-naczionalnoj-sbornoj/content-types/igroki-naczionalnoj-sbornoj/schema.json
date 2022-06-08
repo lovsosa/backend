@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "igroki_naczionalnoj_sbornojs",
+  "info": {
+    "singularName": "igroki-naczionalnoj-sbornoj",
+    "pluralName": "igroki-naczionalnoj-sbornojs",
+    "displayName": "Игроки Национальной Сборной"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

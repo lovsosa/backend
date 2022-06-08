@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "executive_commitets",
+  "info": {
+    "singularName": "executive-commitet",
+    "pluralName": "executive-commitets",
+    "displayName": "ExecutiveCommitet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

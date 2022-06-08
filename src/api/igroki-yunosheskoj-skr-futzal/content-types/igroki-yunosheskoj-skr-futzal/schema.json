@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "igroki_yunosheskoj_skr_futzals",
+  "info": {
+    "singularName": "igroki-yunosheskoj-skr-futzal",
+    "pluralName": "igroki-yunosheskoj-skr-futzals",
+    "displayName": "Игроки Юношеской СКР Футзал",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trenerskoe_obrazovanies",
+  "info": {
+    "singularName": "trenerskoe-obrazovanie",
+    "pluralName": "trenerskoe-obrazovanies",
+    "displayName": " Тренерское образование"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "fail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

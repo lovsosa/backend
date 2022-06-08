@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dlya_bolelshhikovs",
+  "info": {
+    "singularName": "dlya-bolelshhikov",
+    "pluralName": "dlya-bolelshhikovs",
+    "displayName": "Для Болельщиков"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_id",
+  "info": {
+    "singularName": "news",
+    "pluralName": "news-id",
+    "displayName": "News",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "newsTitle": {
+      "type": "string"
+    },
+    "postDescription": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

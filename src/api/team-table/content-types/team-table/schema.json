@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_tables",
+  "info": {
+    "singularName": "team-table",
+    "pluralName": "team-tables",
+    "displayName": "teamTable",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TeamName": {
+      "type": "string"
+    },
+    "Games": {
+      "type": "integer"
+    },
+    "RG": {
+      "type": "integer"
+    },
+    "Points": {
+      "type": "integer"
+    },
+    "TeamIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

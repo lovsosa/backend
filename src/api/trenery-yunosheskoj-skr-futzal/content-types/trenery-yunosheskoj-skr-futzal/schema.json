@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trenery_yunosheskoj_skr_futzals",
+  "info": {
+    "singularName": "trenery-yunosheskoj-skr-futzal",
+    "pluralName": "trenery-yunosheskoj-skr-futzals",
+    "displayName": "Тренеры Юношеской СКР Футзал"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "igroki_nskr_futzals",
+  "info": {
+    "singularName": "igroki-nskr-futzal",
+    "pluralName": "igroki-nskr-futzals",
+    "displayName": "Игроки НСКР Футзал",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
