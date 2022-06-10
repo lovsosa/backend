@@ -4,7 +4,8 @@
   "info": {
     "singularName": "partnery",
     "pluralName": "partneries",
-    "displayName": "Партнеры"
+    "displayName": "Партнеры",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,18 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
