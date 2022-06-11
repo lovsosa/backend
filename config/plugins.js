@@ -23,4 +23,9 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  "backup-restore": {
+    postgres: {
+      pathToPgDump: "/usr/local/opt/libpq/bin/pg_dump",
+    },
+  },
 });
