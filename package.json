@@ -16,6 +16,8 @@
     "@strapi/strapi": "4.1.11",
     "better-sqlite3": "7.4.6",
     "cloudinary": "^1.29.1",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0",
     "strapi-plugin-backup-restore": "^0.5.2",
     "strapi-plugin-transformer": "^2.0.1"
   },
