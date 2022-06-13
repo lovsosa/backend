@@ -10,7 +10,8 @@ Icon
 .Trashes
 ._*
 
-
+private/backups/\*
+!private/backups/.gitkeep
 ############################
 # Linux
 ############################
