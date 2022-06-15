@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poslednie_matchis",
+  "info": {
+    "singularName": "poslednie-matchi",
+    "pluralName": "poslednie-matchis",
+    "displayName": "Последние матчи"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "firstTeam": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "firstTeamName": {
+      "type": "string"
+    },
+    "secondTeam": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "secondTeamName": {
+      "type": "string"
+    }
+  }
+}
